@@ -1,0 +1,9 @@
+class Solution:
+    def fib(self, n: int) -> int:
+        def fibb(self,n):
+            if n==0:
+                return 0
+            if n==1:
+                return 1
+            return fibb(self,n-1)+fibb(self,n-2)
+        return fibb(self,n)
